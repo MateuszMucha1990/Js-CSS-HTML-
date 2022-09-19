@@ -1,0 +1,36 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 1500px;
+    height: 100vh;
+    background-color: antiquewhite;
+    
+   
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    width: 100vw;
+}
+
+.container{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,450px);
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.color{
+    height: 200px;
+    border: 2px black solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
